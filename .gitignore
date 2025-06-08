@@ -23,10 +23,29 @@ yarn-error.log*
 backend/oauth2.keys.json
 backend/token.json
 
-# IDE
+# log files
+*.log
+
+# OS files
+Thumbs.db
+
+# IDEs and editors
 .vscode/
 .idea/
 
-# env files
+# environment files
 .env
+
+# macOS system files
+.AppleDouble
+.LSOverride
+
+# backup files
+*.bak
+*.tmp
+
+# VS Code working files
+.history/
+
+
 
